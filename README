@@ -1,0 +1,32 @@
+DES - 
+
++-------+
+| BUILD |
++-------+
+
+Comments: make
+
++---------+
+|TESTCASES|
++---------+
+
+The commandline syntax for hw4 is as follows:
+    hw4 tablecheck -t=tablefile
+    hw4 encrypt -k=key -t=tablefile [file]
+    hw4 decrypt -k=key -t=tablefile [file]
+
+
+
+
+No warnings. 
+Bad command line handled. 
+
+
+Files in the zip - 
+
+mainfile.c - main file with command line parsing.
+encryption.c - does encrypt and decrypt.
+tablecheck.c - does required check on table file given.
+hw4.h - header file.
+Makefile - used for make.
+
